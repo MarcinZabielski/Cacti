@@ -1,4 +1,4 @@
-## 📖 Cel ćwiczenia
+## Cel ćwiczenia 📖
 
 Celem ćwiczenia jest instalacja i konfiguracja oprogramowania Cacti służącego do monitorowania sieci komputerowych.
 
@@ -20,3 +20,8 @@ Login - admin
 
 Hasło - Hasło podane podczas instalacji
 
+## 4. Ćwiczenie 1 - Monitorowanie komputera lokalnego (Linux 🐧)
+
+## 5. Ćwiczenie 2 - Monitorowanie komputera w sieci LAN (Windows ⊞)
+
+## 6. Ćwiczenie 3 - Stworzenie własnego prostego grafu (ping 🏓)
