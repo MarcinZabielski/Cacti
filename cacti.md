@@ -30,8 +30,8 @@ Instalacja i konfiguracja SNMP na Windows
   ```
 4. Naciśnij kombinacje klawiszy Windows + R i wpisz services.msc.
 5. Znajdź i kliknij prawym na "Usługa SNMP", następnie kliknij "Właściwości".
-6. W zakładce "Ogólne upewnij się, że usługa działa (Stan usługi).
-7. W zakładce "Agent" "example" w polu "Kontakt" i "Lokalizacja" oraz zaznacz wszystkie checkboxy w sekcji Usługi.
+6. W zakładce "Ogólne" upewnij się, że usługa działa (Stan usługi).
+7. W zakładce "Agent" wpisz "example" w polu "Kontakt" i "Lokalizacja" oraz zaznacz wszystkie checkboxy w sekcji Usługi.
 8. W zakładce "Zabezpieczenia" dodaj społeczność "public" z prawem "Tylko do odczytu" i wybierz "Zaakceptuj pakiety SNMP od dowolnego hosta".
 
 
