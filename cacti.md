@@ -42,16 +42,24 @@ Hasło - hasło podane podczas instalacji
 
 ### Dodanie i monitorowanie komputera z Windowsem do cacti
 
-1. Przejdź do Cacti: Zakładka Create -> New Device
-   Description:  Nazwa komputera (dowolna)
-   Hostname:  adres IP komputera
-   Device Template:  Windows Device
-   Kliknij przycisk "Create"
+1. Dodanie komputera:
+   1.1 Przejdź do Cacti.
+   1.2 Zakładka Create -> New Device.
+   1.3 Description:  Nazwa komputera (dowolna).
+   1.4 Hostname:  adres IP komputera.
+   1.5 Device Template:  Windows Device.
+   1.6 Kliknij przycisk "Create".
    
-2. Przejdź do Management -> Devices
-   Kliknij w utworzone wcześniej urządzenie, następnie Create Graphs for this Device
-   W tabeli "Data Query [SNMP - Interface Statistics] znajdź kartę sieciową urządzenia (w komórce IP Address - adres ip komputera) i zaznacz checkbox
-Na dole tabeli
-Select a Graph Type to Create In/Out Bits a następnie Create
-Przejdź do  Management -> Graphs i wybierz Nazwa_komputera - Traffic - Ethernet
-Na komputerze z Windows wygeneruj ruch sieciowy (np. odtwarzanie filmu na youtube)
+2. Tworzenie wykresu:
+   2.1 Przejdź do Management -> Devices
+   2.2 Kliknij w utworzone wcześniej urządzenie, następnie Create Graphs for this Device.
+   2.3 W tabeli "Data Query [SNMP - Interface Statistics]" znajdź kartę sieciową urządzenia i zaznacz checkbox (wskazówka: w komórce "IP Address" - adres ip komputera).
+   2.4 Na dole tabeli - "Select a Graph Type to Create" wybierz "In/Out Bits" a następnie kliknij przycisk Create.
+   2.5 Przejdź do Management -> Graphs i wybierz pozycję: Nazwa_Komputera - Traffic - Ethernet.
+   2.6 Na komputerze z Windows wygeneruj ruch sieciowy (np. odtwarzanie filmu na youtube).
+   2.7 Domyślny Polling Time w Cacti to 5 minut - trzeba chwilę poczekać aż dane pojawią się na wykresie.
+
+4. Podgląd wykresów
+   Przejdź do zakładki "Graphs" znajdującej się na samej górze strony, następnie kliknij ikonę znajdującą się w prawym górnym rogu (Preview)
+
+   
