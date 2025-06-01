@@ -20,9 +20,7 @@ Login - admin
 
 Hasło - Hasło podane podczas instalacji
 
-## 4. Ćwiczenie 1 - Monitorowanie komputera lokalnego (Linux 🐧)
-
-## 5. Ćwiczenie 2 - Monitorowanie komputera w sieci LAN (Windows ⊞)
+## 4. Monitorowanie komputera w sieci LAN z systemem Windows
 
 Instalacja i konfiguracja SNMP na Windows
 1. Uruchom komputer z systemem Windows.
@@ -30,8 +28,12 @@ Instalacja i konfiguracja SNMP na Windows
   ```PowerShell
   Add-WindowsCapability -Online -Name "SNMP.Client~~~~0.0.1.0"
   ```
-4. Naciśnij kombinacje klawiszy Windows + R i wpisz services.msc
-5. Znajdź "Usługa SNMP", kliknij prawym -> Właściwości -> Agent
-6. Wpisz Kontakt i Lokalizacja oraz zaznacz wszystkie checkboxy w sekcji Usługi
+4. Naciśnij kombinacje klawiszy Windows + R i wpisz services.msc.
+5. Znajdź i kliknij prawym na "Usługa SNMP", następnie kliknij "Właściwości".
+6. W zakładce "Ogólne upewnij się, że usługa działa (Stan usługi).
+7. W zakładce "Agent" "example" w polu "Kontakt" i "Lokalizacja" oraz zaznacz wszystkie checkboxy w sekcji Usługi.
+8. W zakładce "Zabezpieczenia" dodaj społeczność "public" z prawem "Tylko do odczytu" i wybierz "Zaakceptuj pakiety SNMP od dowolnego hosta".
+
+
 
 ## 6. Ćwiczenie 3 - Stworzenie własnego prostego grafu (ping 🏓)
