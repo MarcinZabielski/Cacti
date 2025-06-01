@@ -51,15 +51,22 @@ Hasło - hasło podane podczas instalacji
    1.6 Kliknij przycisk "Create".
    
 2. Tworzenie wykresu:
+
    2.1 Przejdź do Management -> Devices
+   
    2.2 Kliknij w utworzone wcześniej urządzenie, następnie Create Graphs for this Device.
+   
    2.3 W tabeli "Data Query [SNMP - Interface Statistics]" znajdź kartę sieciową urządzenia i zaznacz checkbox (wskazówka: w komórce "IP Address" - adres ip komputera).
+   
    2.4 Na dole tabeli - "Select a Graph Type to Create" wybierz "In/Out Bits" a następnie kliknij przycisk Create.
+   
    2.5 Przejdź do Management -> Graphs i wybierz pozycję: Nazwa_Komputera - Traffic - Ethernet.
+   
    2.6 Na komputerze z Windows wygeneruj ruch sieciowy (np. odtwarzanie filmu na youtube).
+   
    2.7 Domyślny Polling Time w Cacti to 5 minut - trzeba chwilę poczekać aż dane pojawią się na wykresie.
 
-4. Podgląd wykresów
+5. Podgląd wykresów
    Przejdź do zakładki "Graphs" znajdującej się na samej górze strony, następnie kliknij ikonę znajdującą się w prawym górnym rogu (Preview)
 
    
