@@ -26,9 +26,9 @@ Login - admin
 
 Hasło - hasło podane podczas instalacji
 
-## 4. Monitorowanie komputera w sieci LAN z systemem Windows
+## 4. Monitorowanie komputera w sieci LAN z systemem Windows ⊞
 
-### Instalacja i konfiguracja SNMP na Windows
+### 4.1 Instalacja i konfiguracja SNMP na Windows 🌐
 1. Uruchom komputer z systemem Windows.
 2. Uruchom PowerShell jako i administrator i wpisz komendę:
   ```PowerShell
@@ -40,33 +40,27 @@ Hasło - hasło podane podczas instalacji
 7. W zakładce "Agent" wpisz "example" w polu "Kontakt" i "Lokalizacja" oraz zaznacz wszystkie checkboxy w sekcji Usługi.
 8. W zakładce "Zabezpieczenia" dodaj społeczność "public" z prawem "Tylko do odczytu" i wybierz "Zaakceptuj pakiety SNMP od dowolnego hosta".
 
-### Dodanie i monitorowanie komputera z Windowsem do cacti
+### 4.2 Dodanie komputera z Windowsem do Cacti ✅
 
-1. Dodanie komputera:
-   1.1 Przejdź do Cacti.
-   1.2 Zakładka Create -> New Device.
-   1.3 Description:  Nazwa komputera (dowolna).
-   1.4 Hostname:  adres IP komputera.
-   1.5 Device Template:  Windows Device.
-   1.6 Kliknij przycisk "Create".
-   
-2. Tworzenie wykresu:
+1. Przejdź do Cacti.
+2. Zakładka Create -> New Device.
+3. Description:  Nazwa komputera (dowolna).
+4. Hostname:  adres IP komputera.
+5. Device Template:  Windows Device.
+6. Kliknij przycisk "Create".
 
-   2.1 Przejdź do Management -> Devices
-   
-   2.2 Kliknij w utworzone wcześniej urządzenie, następnie Create Graphs for this Device.
-   
-   2.3 W tabeli "Data Query [SNMP - Interface Statistics]" znajdź kartę sieciową urządzenia i zaznacz checkbox (wskazówka: w komórce "IP Address" - adres ip komputera).
-   
-   2.4 Na dole tabeli - "Select a Graph Type to Create" wybierz "In/Out Bits" a następnie kliknij przycisk Create.
-   
-   2.5 Przejdź do Management -> Graphs i wybierz pozycję: Nazwa_Komputera - Traffic - Ethernet.
-   
-   2.6 Na komputerze z Windows wygeneruj ruch sieciowy (np. odtwarzanie filmu na youtube).
-   
-   2.7 Domyślny Polling Time w Cacti to 5 minut - trzeba chwilę poczekać aż dane pojawią się na wykresie.
+### 4.3 Monitorowanie komputera 🔎
 
-5. Podgląd wykresów
-   Przejdź do zakładki "Graphs" znajdującej się na samej górze strony, następnie kliknij ikonę znajdującą się w prawym górnym rogu (Preview)
+1. Przejdź do Management -> Devices
+2. Kliknij w utworzone wcześniej urządzenie, następnie Create Graphs for this Device.
+3. W tabeli "Data Query [SNMP - Interface Statistics]" znajdź kartę sieciową urządzenia i zaznacz checkbox (wskazówka: w komórce "IP Address" - adres ip komputera).
+4. Na dole tabeli - "Select a Graph Type to Create" wybierz "In/Out Bits" a następnie kliknij przycisk Create.
+5. Przejdź do Management -> Graphs i wybierz pozycję: Nazwa_Komputera - Traffic - Ethernet.
+6. Na komputerze z Windows wygeneruj ruch sieciowy (np. odtwarzanie filmu na youtube).
+7. Domyślny Polling Time w Cacti to 5 minut - należy chwile poczekać aż dane pojawią się na wykresie.
+
+### 4.4 Podgląd wykresów 📈
+
+Przejdź do zakładki "Graphs" znajdującej się na samej górze strony, następnie kliknij ikonę znajdującą się w prawym górnym rogu (Preview)
 
    
