@@ -59,10 +59,13 @@ Hasło - hasło podane podczas instalacji
 6. Na komputerze z Windows wygeneruj ruch sieciowy (np. odtwarzanie filmu na youtube).
 7. Domyślny Polling Time w Cacti to 5 minut - należy chwile poczekać aż dane pojawią się na wykresie.
 
-![alt traffic](https://github.com/[MarcinZabielski]/[Cacti]/blob/[main]/traffic.PNG?raw=true)
+<img width="639" alt="traffic" src="https://github.com/user-attachments/assets/4e3fc35b-da1e-4ae3-b418-5ecb72592af6" />
 
 ### 4.4 Podgląd wykresów 📈
 
 Przejdź do zakładki "Graphs" znajdującej się na samej górze strony, następnie kliknij ikonę znajdującą się w prawym górnym rogu (Preview)
+
+<img width="642" alt="preview" src="https://github.com/user-attachments/assets/4b33e342-c2b3-4b95-a961-fca3031e4025" />
+
 
    
