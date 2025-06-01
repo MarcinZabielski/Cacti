@@ -1,6 +1,6 @@
 ## Cel ćwiczenia 📖
 
-Celem ćwiczenia jest instalacja i konfiguracja oprogramowania Cacti służącego do monitorowania sieci komputerowych.
+Celem ćwiczenia jest instalacja i konfiguracja oprogramowania Cacti oraz monitorowanie zużycia zasobów komputera z systemem Windows w sieci lokalnej (LAN).
 
 ---
 
