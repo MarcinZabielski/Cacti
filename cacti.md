@@ -57,7 +57,7 @@ Hasło - hasło podane podczas instalacji
 4. Na dole tabeli - "Select a Graph Type to Create" wybierz "In/Out Bits" a następnie kliknij przycisk Create.
 5. Przejdź do Management -> Graphs i wybierz pozycję: Nazwa_Komputera - Traffic - Ethernet.
 6. Na komputerze z Windows wygeneruj ruch sieciowy (np. odtwarzanie filmu na youtube).
-7. Domyślny Polling Time w Cacti to 5 minut - należy chwile poczekać aż dane pojawią się na wykresie.
+7. Domyślny Polling Time w Cacti to 5 minut - należy chwilę poczekać aż dane pojawią się na wykresie.
 
 <img width="639" alt="traffic" src="https://github.com/user-attachments/assets/4e3fc35b-da1e-4ae3-b418-5ecb72592af6" />
 
