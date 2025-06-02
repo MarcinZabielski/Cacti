@@ -52,7 +52,7 @@ Hasło - hasło podane podczas instalacji
 ### 4.3 Monitorowanie komputera 🔎
 
 1. Przejdź do Management -> Devices
-2. Kliknij w utworzone wcześniej urządzenie, następnie Create Graphs for this Device (prawy górny róg interfejsu).
+2. Kliknij w utworzone wcześniej urządzenie, następnie Create Graphs for this Device (prawy górny róg strony).
 3. W tabeli "Data Query [SNMP - Interface Statistics]" znajdź kartę sieciową urządzenia i zaznacz checkbox (wskazówka: w komórce "IP Address" powinien znajdować się adres ip komputera).
 4. Na dole tabeli - "Select a Graph Type to Create" wybierz "In/Out Bits" a następnie kliknij przycisk Create.
 5. Przejdź do Management -> Graphs i wybierz pozycję: Nazwa_Komputera - Traffic - Ethernet.
