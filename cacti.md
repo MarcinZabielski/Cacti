@@ -42,7 +42,7 @@ Hasło - hasło podane podczas instalacji
 
 ### 4.2 Dodanie komputera z Windowsem do Cacti ✅
 
-1. Przejdź do Cacti.
+1. Przejdź do komputera z Cacti.
 2. Zakładka Create -> New Device.
 3. Description:  Nazwa komputera (dowolna).
 4. Hostname:  adres IP komputera.
@@ -52,8 +52,8 @@ Hasło - hasło podane podczas instalacji
 ### 4.3 Monitorowanie komputera 🔎
 
 1. Przejdź do Management -> Devices
-2. Kliknij w utworzone wcześniej urządzenie, następnie Create Graphs for this Device.
-3. W tabeli "Data Query [SNMP - Interface Statistics]" znajdź kartę sieciową urządzenia i zaznacz checkbox (wskazówka: w komórce "IP Address" - adres ip komputera).
+2. Kliknij w utworzone wcześniej urządzenie, następnie Create Graphs for this Device (prawy górny róg interfejsu).
+3. W tabeli "Data Query [SNMP - Interface Statistics]" znajdź kartę sieciową urządzenia i zaznacz checkbox (wskazówka: w komórce "IP Address" powinien znajdować się adres ip komputera).
 4. Na dole tabeli - "Select a Graph Type to Create" wybierz "In/Out Bits" a następnie kliknij przycisk Create.
 5. Przejdź do Management -> Graphs i wybierz pozycję: Nazwa_Komputera - Traffic - Ethernet.
 6. Na komputerze z Windows wygeneruj ruch sieciowy (np. odtwarzanie filmu na youtube).
