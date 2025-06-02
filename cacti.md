@@ -13,7 +13,7 @@ Podczas instalacji pojawią się 2 okna:
 1. Web server - wybierz Apache2 i naciśnij Enter.
 2. Database (dbconfig-common) - tu  wybierz "Yes" a następnie wpisz hasło, które należy zapamiętać.
 
-Instalacja agenta SNMP:
+Instalacja usługi SNMP:
 
 ```bash
 sudo apt-get install snmpd
