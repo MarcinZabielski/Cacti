@@ -30,7 +30,7 @@ Hasło - hasło podane podczas instalacji
 
 ### 4.1 Instalacja i konfiguracja SNMP na Windows 🌐
 1. Uruchom komputer z systemem Windows.
-2. Uruchom PowerShell jako i administrator i wpisz komendę:
+2. Uruchom PowerShell jako i administrator i wpisz polecenie:
   ```PowerShell
   Add-WindowsCapability -Online -Name "SNMP.Client~~~~0.0.1.0"
   ```
